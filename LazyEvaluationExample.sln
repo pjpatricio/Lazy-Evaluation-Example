@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LazyEvaluation.Example", "src\LazyEvaluation.Example\LazyEvaluation.Example.csproj", "{73E5F578-A803-4E03-9AA0-000BF267B9D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{184DCDBA-966B-4BB0-A692-2142FBEF0E30}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{72639094-4D85-4B55-BD43-E3FE027397EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LazyEvaluation.TestExample", "test\LazyEvaluation.TestExample\LazyEvaluation.TestExample.csproj", "{ED61F670-DC8F-40C5-BB0F-3701E2EC36B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73E5F578-A803-4E03-9AA0-000BF267B9D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73E5F578-A803-4E03-9AA0-000BF267B9D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73E5F578-A803-4E03-9AA0-000BF267B9D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73E5F578-A803-4E03-9AA0-000BF267B9D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED61F670-DC8F-40C5-BB0F-3701E2EC36B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED61F670-DC8F-40C5-BB0F-3701E2EC36B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED61F670-DC8F-40C5-BB0F-3701E2EC36B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED61F670-DC8F-40C5-BB0F-3701E2EC36B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{73E5F578-A803-4E03-9AA0-000BF267B9D8} = {184DCDBA-966B-4BB0-A692-2142FBEF0E30}
+		{ED61F670-DC8F-40C5-BB0F-3701E2EC36B8} = {72639094-4D85-4B55-BD43-E3FE027397EF}
+	EndGlobalSection
+EndGlobal
